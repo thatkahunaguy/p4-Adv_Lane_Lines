@@ -31,3 +31,9 @@ The goals / steps of this project are the following:
 4) [output images folder](/output_images): example output images(described in detail in notebook 2)
 5) [test_image_output](/test_image_output) folder: pipeline output for all test images
 6) [project_output_video.mp4](/project_output_video.mp4): output video
+
+**Project Discussion**
+While this project identified several new techniques for lane finding, the implementation still is relatively simple and has areas where it is likely to fail or could be improved.
+* Sensitivity to image bright/saturated spots: while the thresholding and gradient combinations on the saturation channel are fairly robust creating a binary image where lanes can be identified, there are still conditions where this approach is likely to fail or enounter issues including rain, fog, and roads with image conditions/saturated spots which the thresholding & gradient combinations don't properly filter.  
+* Obstruction by other vehicles: the images and video processed in this project have a clear lane in front of the vehicle which is not realistic.  Obstruction by other vehicles in the same lane would likely cause issues in perspective transformation and algorithm for identifying lane pixels from that perspective transform.
+* While it wouldn't solve these specific issues a simple region of interest mask similar to the one we used in the initial project is something I'd add with a bit more time.  Additionally, given a bit more time I'd refactor some of the code for more efficency and remove some of the commented debug lines and improve overall commenting to simply clean up the code.

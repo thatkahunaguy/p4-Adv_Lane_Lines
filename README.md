@@ -18,8 +18,8 @@ The goals / steps of this project are the following:
 * Output visual display of the lane boundaries and numerical estimation of lane curvature and vehicle position.
 
 **Included Files**
-1) Project Writeup: [P4_lane_detect_writeup.html](/P4_lane_detect_writeup.html)
-2) [P4_lane_detect_writeup.ipynb](/P4_lane_detect_writeup.ipynb): Jupyter notebook with the project
+1) Project Writeup: [p4_lane_detect_writeup.html](/p4_lane_detect_writeup.html)
+2) [p4_lane_detect.ipynb](/P4_lane_detect.ipynb): Jupyter notebook with the project
 3) Python Files Imported to Notebook in 2:
 [LaneTracker.py](/LaneTracker.py): object to track lane info across frames		
 [image_enhance.py](/image_enhance.py): hls, gradient, & thresholding routines

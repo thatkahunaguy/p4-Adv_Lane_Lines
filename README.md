@@ -19,7 +19,7 @@ The goals / steps of this project are the following:
 
 **Included Files**
 1) Project Writeup: [p4_lane_detect_writeup.html](/p4_lane_detect_writeup.html)
-2) [p4_lane_detect.ipynb](/P4_lane_detect.ipynb): Jupyter notebook with the project
+2) [p4_lane_detect.ipynb](/p4_lane_detect.ipynb): Jupyter notebook with the project
 3) Python Files Imported to Notebook in 2:
 [LaneTracker.py](/LaneTracker.py): object to track lane info across frames		
 [image_enhance.py](/image_enhance.py): hls, gradient, & thresholding routines
